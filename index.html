@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Switch</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_box">
+        <div class="wrapper">
+          <div class="switch">
+            <input class="switch_input" type="checkbox" id="switch" />
+            <label class="switch_label" for="switch">
+              <span class="switch_span">Вход</span>
+              <span class="switch_span">Регистрация</span>
+            </label>
+          </div>
+          <div class="login">
+            <h1 class="login_tittle">Вход</h1>
+            <input class="login_email" type="email" placeholder="Введите E-mail"/>
+            <input class="login_pass" type="password" placeholder="Пароль" />
+          </div>
+          <div class="checkbox">
+            <input class="login_check" type="checkbox" id="box" />
+            <label for="box"> Запомнить меня </label>
+            <a class="login_link" href="#">Забыли пароль?</a>
+          </div>
+          <div class="btn">
+            <a href="#">
+                <button class="button">Войти</button>
+            </a>
+          </div>
+          <div class="registr">
+            <p class="registr_text">Еще нет аккаунта? </p>
+            <a class="registr_link" href="#">Зарегистрироваться</a>
+          </div>
+          <div class="icons">
+            <p class="icons_text">Или войдите через</p>
+            <ul class="icons_list">
+                <li><a href="#">
+                    <svg class="icons_svg">
+                        <use href="/icons/sprite.svg#face"></use>
+                    </svg>
+                </a></li>
+                <li><a href="#"><svg class="icons_svg">
+                        <use href="/icons/sprite.svg#inst"></use>
+                    </svg></a></li>
+                
+                <li><a href="#"><svg class="icons_svg">
+                        <use href="/icons/sprite.svg#link"></use>
+                    </svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
